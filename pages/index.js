@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 
@@ -28,7 +26,6 @@ export default function Home() {
         <h1 className={styles.title}> Information </h1>
         <img src='https://img.icons8.com/fluency/344/wavy-line.png' className={styles.wave}/>
         <p className={styles.title}>Би 20 настай. Жинлүүрийн орд. Дээрээ ганц ахтай, айлын бага охин.
-        {/* <h1 className={styles.title}>Contact Info</h1> */}
         <p className={styles.title}><img src='https://img.icons8.com/material-outlined/344/facebook-new.png' className={styles.icon}/> Enkhbold Myagmarsuren  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <img src='https://img.icons8.com/ios/344/apple-phone.png' className={styles.icon}/> 85958814</p> 
         <p className={styles.title}><img src='https://img.icons8.com/material-outlined/344/gmail-new.png' className={styles.icon} /> madridmiigaa@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='https://img.icons8.com/material-outlined/344/instagram-new--v2.png' className={styles.icon}/> mnegun </p>
         </p>
@@ -52,16 +49,7 @@ export default function Home() {
         <p className={styles.lantit}>Japanese &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img className={styles.icon1} src='https://img.icons8.com/plasticine/344/like--v1.png'/> <img className={styles.icon1} src='https://img.icons8.com/plasticine/344/like--v1.png'/> <img className={styles.icon1} src='https://img.icons8.com/plasticine/344/like--v2.png'/> <img className={styles.icon1} src='https://img.icons8.com/plasticine/344/like--v2.png'/> <img className={styles.icon1} src='https://img.icons8.com/plasticine/344/like--v2.png'/></p>
         </div>
 
-        
-       
-        {/* <div>
-        <h1 className={styles.lan}>Skills</h1>
-        <p className={styles.lantit}>Teamwork &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/></p>
-        <p className={styles.lantit}>Creativity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/color/344/star--v1.png'/></p>
-        <p className={styles.lantit}>Problem Solving&nbsp;&nbsp;&nbsp;&nbsp; <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/color/344/star--v1.png'/> <img className={styles.icon1} src='https://img.icons8.com/color/344/star--v1.png'/></p>
-        <p className={styles.lantit}>Time Management&nbsp;<img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/fluency/344/star.png'/> <img className={styles.icon1} src='https://img.icons8.com/color/344/star--v1.png'/></p>
-        </div> */}
-      </div> 
+        </div> 
        
       
       </div>
